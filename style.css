@@ -359,8 +359,8 @@ a:hover {
 .logo img{
     height: 300px;
     width: 300px;
-    margin-bottom: 20px;
-    margin-left: 150px;
+    /* margin-bottom: 8px; */
+    /* margin-left: 1.9rem; */
 }
 
 
@@ -735,14 +735,14 @@ section {
 
 .skill-bar {
     height: 0.75rem;
-    background: var(--premium-blue);
+    background: white;
     border-radius: var(--radius);
     overflow: hidden;
 }
 
 .skill-progress {
     height: 100%;
-    background: linear-gradient(135deg, var(--primary-gold), hsl(51, 80%, 60%));
+    background: linear-gradient(135deg, var(--primary-gold), hsl(0, 80%, 60%));
     border-radius: var(--radius);
     width: 0; /* Start from 0 */
     transition: width 1.5s ease-in-out; /* Smooth animation */
@@ -819,7 +819,7 @@ section {
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
+    gap: 4rem;
     margin-bottom: 3rem;
 }
 
@@ -2116,7 +2116,7 @@ a:focus {
   }
 
   .logo img {
-    max-width: 240px;
+    max-width: 299px;
   }
 
 .mobile-menu {
@@ -2284,3 +2284,4 @@ a:focus {
     width: 100%; /* make inputs take full width */
   }
 }
+
