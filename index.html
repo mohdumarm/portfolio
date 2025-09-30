@@ -38,49 +38,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Navigation -->
+<!-- Navigation -->
     <nav id="navbar" class="navbar">
+  <div class="container navbar-content">
+    <div class="logo">
+      <img src="logo-removebg-preview.png" alt="">
+    </div>
 
-      
-      <div class="container navbar-content">
-        <div class="logo">
-          <img src="logo-removebg-preview.png" alt="">
-        </div>
-        <!-- <div class="navbar-brand">
-          <div class="logo">
-            <span>MU</span>
-          </div>
-          <span class="brand-text">Muhd Umar</span>
-        </div> -->
+    <!-- Desktop Navbar -->
+    <div class="navbar-menu" id="navbarMenu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#portfolio" class="nav-link">Projects</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
 
-        <div class="navbar-menu" id="navbarMenu">
-          <a href="#home" class="nav-link">Home</a>
-          <a href="#about" class="nav-link">About</a>
-          <a href="#portfolio" class="nav-link">Projects</a>
-          <a href="#services" class="nav-link">Services</a>
-          <a href="#testimonials" class="nav-link">Testimonials</a>
-          <a href="#contact" class="nav-link">Contact</a>
-        </div>
+    <!-- Menu Toggle (only visible on mobile) -->
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+  </div>
 
-        <!-- <div class="navbar-actions">
-                <button id="darkModeToggle" class="icon-button">
-                    <i data-lucide="moon" class="icon"></i>
-                </button>
-                <button id="mobileMenuToggle" class="icon-button mobile-menu-btn">
-                    <i data-lucide="menu" class="icon"></i>
-                </button>
-            </div> -->
-      </div>
-
-      <div id="mobileMenu" class="mobile-menu">
-        <a href="#home" class="mobile-nav-link">Home</a>
-        <a href="#about" class="mobile-nav-link">About</a>
-        <a href="#portfolio" class="mobile-nav-link">Projects</a>
-        <a href="#services" class="mobile-nav-link">Services</a>
-        <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
-        <a href="#contact" class="mobile-nav-link">Contact</a>
-      </div>
-    </nav>
+  <!-- Mobile Navbar -->
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="#home" class="mobile-nav-link">Home</a>
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#portfolio" class="mobile-nav-link">Projects</a>
+    <a href="#services" class="mobile-nav-link">Services</a>
+    <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+</nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
@@ -1233,7 +1221,7 @@
 
          <a href="#home">  <button id="backToTop" class="btn btn-outline back-to-top">
   <i data-lucide="arrow-up" class="icon"></i>
-  Back To 
+  Back To Top
 </button></a>
           </div>
         </div>
