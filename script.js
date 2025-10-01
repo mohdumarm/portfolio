@@ -15,15 +15,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Dark Mode Toggle
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    if (darkModeToggle) {
-        darkModeToggle.addEventListener('click', function () {
-            isDarkMode = !isDarkMode;
-            document.documentElement.classList.toggle('dark', isDarkMode);
-            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-            updateDarkModeIcon(isDarkMode);
-        });
-    }
+    // const darkModeToggle = document.getElementById('darkModeToggle');
+    // if (darkModeToggle) {
+    //     darkModeToggle.addEventListener('click', function () {
+    //         isDarkMode = !isDarkMode;
+    //         document.documentElement.classList.toggle('dark', isDarkMode);
+    //         localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    //         updateDarkModeIcon(isDarkMode);
+    //     });
+    // }
 
     function updateDarkModeIcon(dark) {
         if (!darkModeToggle) return;
