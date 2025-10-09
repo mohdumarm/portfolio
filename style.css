@@ -311,6 +311,7 @@ a:hover {
     animation: float 3s ease-in-out infinite;
 }
 
+
 /* Navigation */
 .navbar {
     position: fixed;
@@ -321,14 +322,18 @@ a:hover {
     padding: 1rem 0;
     padding-right: 400px;
     transition: var(--transition-smooth);
-    background: var(--card);
-    /* background: linear-gradient(135deg, var(--royal-gold)0%, var(--premium-blue)100%); */
+    background: rgba(0, 0, 0, 0.2); /* transparent with a slight tint */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); /* for Safari */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Darker glass when scrolled */
 .navbar.scrolled {
-    background: var(--glass-bg);
+    background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--glass-border);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: var(--shadow-luxury);
 }
 
